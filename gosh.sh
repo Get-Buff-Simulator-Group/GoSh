@@ -1,4 +1,5 @@
 #!/bin/bash
+read term
 echo "Searching for : $@"
 for term in $@ ; do
     echo "$term"
